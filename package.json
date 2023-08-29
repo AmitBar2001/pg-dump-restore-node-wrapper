@@ -6,9 +6,6 @@
   "scripts": {
     "test": "jest"
   },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
-  },
   "author": "Amit Bar",
   "license": "MIT",
   "dependencies": {

@@ -1,6 +1,8 @@
 # pg-dump-restore-node-wrapper
 
-This very small utility that includes pg_dump and pg_restore binaries for Windows and macOS, taken from Postgres 13.4. DLLs and dylibs are also included, making the binaries standalone.
+forked from @endodata
+
+This very small utility that includes pg_dump and pg_restore binaries for Windows and macOS, taken from Postgres 14. DLLs and dylibs are also included, making the binaries standalone.
 
 A thin CLI wrapper is also provided.
 

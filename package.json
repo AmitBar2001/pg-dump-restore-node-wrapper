@@ -1,7 +1,7 @@
 {
   "name": "@amitbar/pg-dump-restore-node-wrapper",
-  "version": "0.0.3",
-  "description": "A very basic nodejs wrapper around the pg_dump and pg_restore (version 14)",
+  "version": "0.0.5",
+  "description": "A very basic nodejs wrapper around the pg_dump and pg_restore (version 14.9)",
   "main": "index.js",
   "scripts": {
     "test": "jest"

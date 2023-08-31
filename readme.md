@@ -35,13 +35,13 @@ async function main() {
 }
 ```
 
-Please see the [pg_dump](https://www.postgresql.org/docs/12/app-pgdump.html) and [pg_restore](https://www.postgresql.org/docs/12/app-pgrestore.html) documentation for details on the arguments and [execa](https://github.com/sindresorhus/execa) for details on the output streams.
+Please see the [pg_dump](https://www.postgresql.org/docs/14/app-pgdump.html) and [pg_restore](https://www.postgresql.org/docs/14/app-pgrestore.html) documentation for details on the arguments and [execa](https://github.com/sindresorhus/execa) for details on the output streams.
 
 ## Creating the binaries
 
 pg_dump V<=X can be restored using pg_restore V>=X.
 
-I chose to use pg_dump and pg_restore for Postgres 13, as most of the machines I manage have Postgres 13, (and I only use Postgres 12 features).
+I chose to use pg_dump and pg_restore for Postgres 14, as most of the machines I manage have Postgres 14.
 
 ### macOS
 
